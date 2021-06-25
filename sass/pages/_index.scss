@@ -1,0 +1,107 @@
+ /*Animation au chargement de la page*/
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  animation: loader 0.4s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+  z-index: 1;
+  @include centrer;
+  align-items: center;
+ 
+
+
+  &__bloc {
+    display: flex;
+    width: 50%;
+    @include icharg;
+
+  }
+  &__ball {
+   
+    height: 50%;
+    width: 50%;
+    border-radius: 15%;
+    animation: bounceIn 1s;
+    animation-iteration-count: 2;
+ 
+    border-radius: 50%;
+
+  }
+
+  &__ball1 {
+    background-color: $couleur-primaire;
+ 
+  }
+  &__ball2 {
+    background-color: $couleur-secondaire;
+    animation-delay: 0.5s;
+  }
+  &__ball3 {
+    background-color:$couleur-tertiaire;
+    animation-delay: 0.30s;
+  }
+ 
+}
+
+
+
+
+
+/*  Breckpoint Desktop*/
+@media only screen and (min-width: 700px)  { 
+
+  .loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    animation: loader 0.4s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+    z-index: 1;
+    @include centrer;
+    align-items: center;
+   
+  
+  
+    &__bloc {
+      display: flex;
+      width: 15%;
+      @include icharg;
+  
+    }
+    &__ball {
+     
+      height: 50%;
+      width: 50%;
+      border-radius: 15%;
+      animation: bounceIn 1s;
+      animation-iteration-count: 2;
+   
+      border-radius: 50%;
+  
+    }
+  
+    &__ball1 {
+      background-color: $couleur-primaire;
+   
+    }
+    &__ball2 {
+      background-color: $couleur-secondaire;
+      animation-delay: 0.5s;
+    }
+    &__ball3 {
+      background-color:$couleur-tertiaire;
+      animation-delay: 0.30s;
+    }
+   
+  }
+
+ }

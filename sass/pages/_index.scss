@@ -32,31 +32,82 @@
 
   &__ball1 {
     background-color: $couleur-primaire;
- 
+ margin: 5px;
   }
   &__ball2 {
     background-color: $couleur-secondaire;
     animation-delay: 0.5s;
+    margin: 5px;
   }
   &__ball3 {
     background-color:$couleur-tertiaire;
     animation-delay: 0.30s;
+    margin: 5px;
   }
  
 }
 
+.presentation{
+
+ h1 {
+font-size: 45px;
+font-weight: 800;
+    font-weight: bold;
+    @include centrer;
+    text-align: center;
+
+}
+
+h2 {
+  @include centrer;
+  text-align: center;
+  
+  }
+
+h3 {
+  @include centrer;
+   
+    
+    }
+
+}
+
+.choix{
+
+background-color: white;
+
+  h2 {
+    @include centrer;
+
+  }
+  li {
+
+    @include centrer;
+
+  }
 
 
+
+}
 .colonnes {
   @include colonnes;
   }
+  
 .imgrest {
 
 @include mixfig;
 
 }
+footer {
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+.titrebas {
+  font-family: $font-logo;
+  font-size: 18px;
 
-
+  }
 
 /*  Breckpoint Desktop*/
 @media only screen and (min-width: 700px)  { 

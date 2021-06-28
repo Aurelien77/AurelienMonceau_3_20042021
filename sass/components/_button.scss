@@ -1,5 +1,5 @@
 .button {
 
-background-color: greenyellow;
-
+background-color: $background-grey;
+@include centrer;
 }

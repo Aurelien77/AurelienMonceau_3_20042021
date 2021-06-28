@@ -5,7 +5,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+img {
+width: 100%;
+margin: 0px;
+padding: 0px;
 
+}
 a{
     text-decoration:none;
     color:black;

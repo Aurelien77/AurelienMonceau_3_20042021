@@ -252,6 +252,13 @@ body {
   
    .presentation{
 margin-bottom: 50px;
+display: flex;
+@include centrer;
+a {
+margin-top: 20px;
+width: 30%;
+}
+
     h1 {
       font-family: $font-texte;
    font-size: 35px;
@@ -276,7 +283,7 @@ margin-bottom: 50px;
    
    }
    
-   
+  
    
    .choix{
     

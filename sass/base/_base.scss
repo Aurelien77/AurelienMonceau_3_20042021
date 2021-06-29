@@ -11,6 +11,8 @@ a {
     color:black;
 }
 main{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: $background-grey;
 }

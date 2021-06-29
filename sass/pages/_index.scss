@@ -157,10 +157,18 @@ padding-bottom: 15px;
 margin-bottom: 15px;
 margin-left: 0px;
 
-&:hover {
+&#a:hover {
 
-background-color: aqua;
+background-color: $couleur-primaire;
 }
+&#b:hover {
+
+  background-color: $couleur-secondaire;
+  }
+  &#c:hover {
+
+    background-color: $couleur-tertiaire;
+    }
   }
 
 
@@ -320,8 +328,8 @@ width: 30%;
  
 
   
-   &:hover li {
-     background-color: aqua;
+   &:hover li  {
+     background-color: $couleur-primaire;
    }
 
 

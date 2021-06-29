@@ -1,5 +1,9 @@
 .button {
-
-background-color: $background-grey;
+background-color:#AF5FDC;
 @include centrer;
+color: white;
+height: 50px;
+border-radius: 40px;
+
+
 }

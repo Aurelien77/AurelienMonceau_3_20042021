@@ -195,12 +195,15 @@ footer {
   color: white;
   background-color: #353535;
   width: 100%;
+  line-height: 2;
 }
 /* Titre homyfood*/
 .titrebas {
   font-family: $font-logo;
   font-size: 18px;
 font-weight: 400;
+margin-bottom: -10px;
+margin-left: 40px;
   }
 
 /*  Breckpoint Desktop*/
@@ -353,6 +356,7 @@ width: 30%;
     width: 100%;
     @include colonnes;
     margin: 0px;
+    
     }
 
     .imgrest {
@@ -362,6 +366,7 @@ width: 30%;
    font-family: $font-texte;
       font-size: 20px;
 font-weight: bold; 
+
    h2 {
 
     display: flex;
@@ -387,10 +392,13 @@ font-weight: bold;
     font-family: $font-logo;
     font-size: 18px;
   font-weight: 200;
+  margin-bottom: -10px;
+  margin-left: -35px;
     }
    footer {
 display: flex;
 flex-direction: column;
 @include centrer;
+line-height: 2;
    }
  }

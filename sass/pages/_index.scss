@@ -183,14 +183,35 @@ background-color: $couleur-primaire;
 /* section restaurants */
 
 .colonnes {
-  @include colonnes;
-  }
-  /* calque des restaurants */
-.imgrest {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
+  @include colonnes;
+
+
+
+&__imgrest {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+width: 90%;
 @include mixfig;
+margin-bottom: 20px;
+}
+
 
 }
+  
+
+
+ 
+  
+  /* calque des restaurants */
+
 
 /* footer */
 footer {
@@ -410,41 +431,60 @@ width: 30%;
    }
 
 
-   .colonnes {
-    width: 100%;
-    @include colonnes;
-    margin: 0px;
-    
-    }
+  
 
-    .imgrest {
+    .colonnes {
+
+
+      @include colonnes;
+    
+     width: 100%;
+    background-color: white;
+       
+     
+    
+    &__imgrest {
+     background-color: $background-grey;
       display: flex;
-       width: 100%;
-   flex-direction: column;
-   font-family: $font-texte;
-      font-size: 20px;
+      width: 90%;
+  flex-direction: column;
+  font-family: $font-texte;
+     font-size: 20px;
 font-weight: bold; 
 
-   h2 {
+  h2 {
 
-    display: flex;
-  @include centrer;
-   }
-   a {
-  
-    padding-right: 28%;
-    padding-left: 28%;
+   display: flex;
+ @include centrer;
+  }
+  a {
+ 
+   padding-right: 28%;
+   padding-left: 28%;
 }
-   figcaption {
-   text-align: center;
+  figcaption {
+  text-align: center;
+  
+  }
+   img {
    
+    border-radius: 20px;
+    height: 440px;
    }
-    img {
-    
-     border-radius: 20px;
-     height: 440px;
     }
-      }
+    
+    
+    }
+      
+    
+
+
+
+
+
+
+
+    
    
    .titrebas {
     font-family: $font-logo;

@@ -122,25 +122,27 @@ margin-bottom: 20px;
 
 
 
-    .boutonco{
+    .boutonco {
         display: flex;
-       
         align-content: center;
         justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    margin-left: 800px;
-    margin-right: 800px;
-    margin-bottom: 20px;
-        background: $degrade;
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
+        padding-top: 10px;
+        margin-left: 600px;
+        margin-right:600px;
+        margin-bottom: 20px;
+        background: linear-gradient(
+    155deg
+    , #ff79da, #9356dc);
         transition: all 800ms;
         transition: transform 250ms;
         border-radius: 30px;
         height: 33px;
+    
        a {
         color: white;
-    
+
        }
         &:hover {
             opacity: 0.8;

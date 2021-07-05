@@ -295,7 +295,17 @@ padding-left: 15px;
 padding-right: 15px;
 text-align: left;
 
-
+h1 {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  font-family: $font-logo;
+.fa-heart {
+  
+  color: red;
+  
+  }
+}
 .menutitre{
   background-color: white;
   height: 50px;
@@ -319,11 +329,16 @@ font-weight: bold;
      font-size: 13px;
      flex-direction: row;
      font-weight: bold;
-   
+   p {
+     text-align: right;
+     display: flex;
+     flex-direction: column;
+     margin-top: -15px;
+     margin-right: 10px ;
+   }
     }
     
       } 
-
 
 
 

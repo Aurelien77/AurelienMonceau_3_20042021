@@ -181,20 +181,7 @@ background-color: $couleur-primaire;
 
 
 }
-.calquenew  {
-  display: flex;
-margin-right: 30px;
-margin-left: 245px;
-margin-top: 10px;
-position:absolute;
-background-color: $couleur-tertiaire;
-width: 20%;
-height: 25px;
- @include centrer;
- font-size: 13px;
-font-weight: bold;
-color: rgb(10, 92, 74);
-}
+
 /* section restaurants */
 
 .colonnes {
@@ -240,12 +227,30 @@ text-align: left;
 &__imgrest {
   display: flex;
   flex-direction: column;
-
-  justify-content: left;
-  align-items: left;
+  
+align-items: flex-end;
+  
 width: 90%;
 @include mixfig;
 margin-bottom: 20px;
+
+
+.calquenew  {
+display: flex;
+margin-right: 10px;
+margin-top: 10px;
+position:absolute;
+background-color: $couleur-tertiaire;
+width: 20%;
+height: 25px;
+ @include centrer;
+ font-size: 13px;
+font-weight: bold;
+color: rgb(10, 92, 74);
+}
+
+
+
 
 }
 
@@ -408,6 +413,23 @@ body {
 
 
 }
+
+
+.calquenew  {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 10px;
+  position:absolute;
+  background-color: $couleur-tertiaire;
+  width: 20%;
+  height: 25px;
+   @include centrer;
+   font-size: 13px;
+  font-weight: bold;
+  color: rgb(10, 92, 74);
+  }
+
+
   .loading {
     position: fixed;
     width: 100%;

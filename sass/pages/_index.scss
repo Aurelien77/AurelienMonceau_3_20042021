@@ -181,7 +181,20 @@ background-color: $couleur-primaire;
 
 
 }
-
+.calquenew  {
+  display: flex;
+margin-right: 30px;
+margin-left: 245px;
+margin-top: 10px;
+position:absolute;
+background-color: $couleur-tertiaire;
+width: 20%;
+height: 25px;
+ @include centrer;
+ font-size: 13px;
+font-weight: bold;
+color: rgb(10, 92, 74);
+}
 /* section restaurants */
 
 .colonnes {

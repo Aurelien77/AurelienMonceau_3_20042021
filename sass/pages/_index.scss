@@ -100,6 +100,8 @@ flex-direction: column;
      font-weight: bold; 
 text-align: center;
 margin-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 h2 {
@@ -107,6 +109,8 @@ h2 {
   font-size: 20px;
   text-align: center;
   font-weight: 200; 
+  padding-left: 8px;
+padding-right: 8px;
   }
 
 h3 {
@@ -127,7 +131,7 @@ background-color: white;
 font-weight: 600;
 @include centrer;
 margin-left: 0px;
-margin-top: 70px;
+margin-top: 60px;
 padding-top: 30px;
 margin-bottom: 25px;
   h2 {
@@ -154,19 +158,26 @@ padding: 0px;
     flex-direction: row;
 @include centrer;
     border-radius: 20px;
-width: 100%;
 height: 40px;
 padding-top: 15px;
 padding-bottom: 15px;
 margin-bottom: 15px;
-width: 95%;
+width: 90%;
 justify-content: space-evenly;
 background-color: $background-grey;
 box-shadow: 4px 4px #e4e1e1;
 
-&#a:hover {
+i {
 
-background-color: $couleur-primaire;
+margin-right: -40px;
+margin-left: -20px;
+
+}
+
+
+&#a:hover {
+  background-color: $couleur-tertiaire;
+
 }
 &#b:hover {
 
@@ -174,7 +185,7 @@ background-color: $couleur-primaire;
   }
   &#c:hover {
 
-    background-color: $couleur-tertiaire;
+    background-color: $couleur-primaire;
     }
   }
 
@@ -191,11 +202,11 @@ background-color: $couleur-primaire;
   align-items: center;
 margin-top: 10px;
   @include colonnes;
-  
+
 
 h2 {
 padding-left: 10px;
-margin-left: -150px;
+margin-left: -200px;
 
 }
 
@@ -227,14 +238,17 @@ text-align: left;
 &__imgrest {
   display: flex;
   flex-direction: column;
-  
+
 align-items: flex-end;
   
 width: 90%;
 @include mixfig;
 margin-bottom: 20px;
 
+a {
 
+  line-height: 0.5;
+ } 
 .calquenew  {
 display: flex;
 margin-right: 10px;

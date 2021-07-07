@@ -415,19 +415,7 @@ body {
 }
 
 
-.calquenew  {
-  display: flex;
-  margin-right: 10px;
-  margin-top: 10px;
-  position:absolute;
-  background-color: $couleur-tertiaire;
-  width: 20%;
-  height: 25px;
-   @include centrer;
-   font-size: 13px;
-  font-weight: bold;
-  color: rgb(10, 92, 74);
-  }
+
 
 
   .loading {
@@ -587,11 +575,29 @@ margin-left: 0px;
     &__imgrest {
      background-color: $background-grey;
       display: flex;
-      width: 90%;
+      width: 30%;
   flex-direction: column;
   font-family: $font-texte;
      font-size: 20px;
 font-weight: bold; 
+
+
+
+.calquenew  {
+  display: flex;
+
+  margin-right: 0px;
+  margin-top: 10px;
+  position:absolute;
+  background-color: $couleur-tertiaire;
+  width: 30%;
+  height: 35px;
+   @include centrer;
+   font-size: 13px;
+  font-weight: bold;
+  color: rgb(10, 92, 74);
+  }
+
 
   h2 {
 margin-left: 0px;
@@ -611,39 +617,38 @@ justify-content: center;
       margin-top: 3px;
       position: absolute;
   } }
+
+
+
+
   p {
 text-align: center;
     padding: 0px;
   }
+
   a {
  
-   padding-right: 28%;
-   padding-left: 28%;
+   padding-right: 0 ;
+   padding-left: 0 ;
 }
+
   figcaption {
   text-align: center;
-  
+  width: 100%;
   }
+  
    img {
-   
+    width: 100%;
     border-radius: 20px;
     height: 440px;
    }
+
+
     }
     
     
     }
       
-    
-
-
-    
-
-
-
-
-
-
     
    
    .titrebas {

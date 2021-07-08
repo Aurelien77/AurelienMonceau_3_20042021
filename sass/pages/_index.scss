@@ -216,7 +216,7 @@ justify-content: space-between;
   padding-left: 10px;
  
 
-
+  
  
      
 
@@ -224,8 +224,7 @@ justify-content: space-between;
 font-size: 29px;
 
     display: flex;
-    
-   
+
   .fas {
     position: absolute;
 opacity: 0;
@@ -238,6 +237,7 @@ display: flex;
 opacity: 0;
 font-size: 28px;
 display: flex;
+
 
   }
       &:hover {
@@ -408,11 +408,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   font-family: $font-logo;
-.fa-heart {
-  
-  color: red;
-  
-  }
+
 }
 
 h2 {
@@ -681,51 +677,6 @@ display: flex;
     padding-left: 10px;
 justify-content: center;
 
-
-
-.heart {
-  font-size: 29px;
-  
-      display: flex;
-      
-     
-    .fas {
-      position: absolute;
-  opacity: 0;
-  font-size: 28px;
-  display: flex;
-  
-    }
-    .far {
-      position: absolute;
-  opacity: 0;
-  font-size: 28px;
-  display: flex;
-  
-    }
-        &:hover {
-          .apparait {
-           position: absolute;
-          
-           margin-top: -2.5px;
-            transition: 1000ms ease-in-out;
-         
-           opacity: 10;
-            color: transparent;
-            background: linear-gradient($couleur-primaire, $couleur-secondaire);
-            background-clip: text;
-            -webkit-background-clip: text;
-            font-size: 32px;
-          }
-  
-         
-          
-      
-      }  
-    
-    
-    
-    }
 
 
 
@@ -1021,49 +972,7 @@ text-align: center;
         padding-left: 10px;
     justify-content: center;
     
-    .heart {
-      font-size: 29px;
-      
-          display: flex;
-          
-         
-        .fas {
-          position: absolute;
-      opacity: 0;
-      font-size: 28px;
-      display: flex;
-      
-        }
-        .far {
-          position: absolute;
-      opacity: 0;
-      font-size: 28px;
-      display: flex;
-      
-        }
-            &:hover {
-              .apparait {
-               position: absolute;
-              
-               margin-top: -2.5px;
-                transition: 1000ms ease-in-out;
-             
-               opacity: 10;
-                color: transparent;
-                background: linear-gradient($couleur-primaire, $couleur-secondaire);
-                background-clip: text;
-                -webkit-background-clip: text;
-                font-size: 32px;
-              }
-      
-             
-              
-          
-          }  
-        
-        
-        
-        } }
+     }
     a {
   width: 100%;
     
@@ -1364,13 +1273,7 @@ h3 {
 
   padding-left: 10px;
 
-   .fa-heart {
-    color: red;
-    margin-right: 0px;
-    margin-left: 200px;
-    margin-top: 20px;
-    position: absolute;
-}
+   
 }
 p {
   padding-left: 10px;

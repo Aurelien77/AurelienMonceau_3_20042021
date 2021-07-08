@@ -215,21 +215,25 @@ h3 {
 justify-content: space-between;
   padding-left: 10px;
  
+ 
 
-  
  
      
 
   .heart {
 font-size: 29px;
-
-    display: flex;
+padding-left: 180px;
+padding-right: 40px;
+display: flex;
+justify-content: space-between;
 
   .fas {
     position: absolute;
 opacity: 0;
-font-size: 28px;
+font-size: 88px;
 display: flex;
+margin-top: -20px;
+margin-left: -20px;
 
   }
   .far {
@@ -243,7 +247,9 @@ display: flex;
       &:hover {
         .apparait {
          position: absolute;
-        
+      padding-right: 3px;
+      padding-left: 3px;
+      margin-left: -5px;
          margin-top: -2.5px;
           transition: 1000ms ease-in-out;
        

@@ -214,19 +214,70 @@ h3 {
   display: flex;
 justify-content: space-between;
   padding-left: 10px;
-  position: relative;
+ 
 
-  .fa-heart {
-    color: red;
-    margin-right: 20px;
-    margin-left: 260px;
-    margin-top: 20px;
 
+ 
+     
+
+  .heart {
+font-size: 29px;
+
+    display: flex;
     
+   
+  .fas {
     position: absolute;
-      }
+opacity: 0;
+font-size: 28px;
+display: flex;
 
-}
+  }
+  .far {
+    position: absolute;
+opacity: 0;
+font-size: 28px;
+display: flex;
+
+  }
+      &:hover {
+        .apparait {
+         position: absolute;
+        
+         margin-top: -2.5px;
+          transition: 1000ms ease-in-out;
+       
+         opacity: 10;
+          color: transparent;
+          background: linear-gradient($couleur-primaire, $couleur-secondaire);
+          background-clip: text;
+          -webkit-background-clip: text;
+          font-size: 32px;
+        }
+
+       
+        
+    
+    }  
+  
+  
+  
+  }
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
 
 
 p {
@@ -244,6 +295,12 @@ align-items: flex-end;
 width: 90%;
 @include mixfig;
 margin-bottom: 20px;
+
+
+
+
+
+
 
 a {
 
@@ -624,13 +681,60 @@ display: flex;
     padding-left: 10px;
 justify-content: center;
 
-     .fa-heart {
-      color: red;
-      margin-right: 0px;
-      margin-left: 250px;
-      margin-top: 3px;
+
+
+.heart {
+  font-size: 29px;
+  
+      display: flex;
+      
+     
+    .fas {
       position: absolute;
-  } }
+  opacity: 0;
+  font-size: 28px;
+  display: flex;
+  
+    }
+    .far {
+      position: absolute;
+  opacity: 0;
+  font-size: 28px;
+  display: flex;
+  
+    }
+        &:hover {
+          .apparait {
+           position: absolute;
+          
+           margin-top: -2.5px;
+            transition: 1000ms ease-in-out;
+         
+           opacity: 10;
+            color: transparent;
+            background: linear-gradient($couleur-primaire, $couleur-secondaire);
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-size: 32px;
+          }
+  
+         
+          
+      
+      }  
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+   }
 
 
 
@@ -917,13 +1021,49 @@ text-align: center;
         padding-left: 10px;
     justify-content: center;
     
-         .fa-heart {
-          color: red;
-          margin-right: 0px;
-          margin-left: 250px;
-          margin-top: 3px;
+    .heart {
+      font-size: 29px;
+      
+          display: flex;
+          
+         
+        .fas {
           position: absolute;
-      } }
+      opacity: 0;
+      font-size: 28px;
+      display: flex;
+      
+        }
+        .far {
+          position: absolute;
+      opacity: 0;
+      font-size: 28px;
+      display: flex;
+      
+        }
+            &:hover {
+              .apparait {
+               position: absolute;
+              
+               margin-top: -2.5px;
+                transition: 1000ms ease-in-out;
+             
+               opacity: 10;
+                color: transparent;
+                background: linear-gradient($couleur-primaire, $couleur-secondaire);
+                background-clip: text;
+                -webkit-background-clip: text;
+                font-size: 32px;
+              }
+      
+             
+              
+          
+          }  
+        
+        
+        
+        } }
     a {
   width: 100%;
     

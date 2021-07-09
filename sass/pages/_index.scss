@@ -1017,6 +1017,7 @@ margin-right: 20px;
 
       }
       p {
+display: flex;
 
 text-align: center;
 
@@ -1029,20 +1030,82 @@ text-align: center;
     font-family: $font-texte;
        font-size: 20px;
   font-weight: bold; 
-  
+
   h3 {
     display: flex;
         padding-left: 10px;
-    justify-content: center;
+  
     
+
+    .heart {
+      display: flex;
+  
+      font-size: 26px;
+     padding-top: 30px;
+    border: 0px;
+      margin-top: -30px;
+  
+      
+        .fas {
+          position: absolute;
+      opacity: 0;
+      font-size: 88px;
+      display: flex;
+      margin-top: -30px;
+     
+      
+        }
+        .far {
+          position: absolute;
+      opacity: 0;
+      font-size: 20px;
+      display: flex;
+      
+      
+        }
+            &:hover {
+              .apparait {
+               position: absolute;
+            padding-right: 3px;
+            padding-left: 3px;
+            margin-left: -5px;
+               margin-top: -2.5px;
+                transition: 1000ms ease-in-out;
+             
+               opacity: 10;
+                color: transparent;
+                background: linear-gradient($couleur-primaire, $couleur-secondaire);
+                background-clip: text;
+                -webkit-background-clip: text;
+                font-size: 32px;
+              }
+      
+             
+              
+          
+          }  
+      
+      
+        
+        
+        
+        
+        }
+
+
+
+
+
+
+
      }
     a {
   width: 100%;
     
   }
     figcaption {
-    text-align: center;
-    
+    text-align: left;
+  
     }
      img {
      

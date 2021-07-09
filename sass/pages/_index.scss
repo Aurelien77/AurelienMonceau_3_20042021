@@ -221,11 +221,11 @@ justify-content: space-between;
      
 
   .heart {
-font-size: 29px;
-padding-left: 180px;
-padding-right: 40px;
+font-size: 20px;
+padding-left: 105px;
+padding-right: 30px;
 display: flex;
-justify-content: space-between;
+
 
   .fas {
     position: absolute;
@@ -239,7 +239,7 @@ margin-left: -20px;
   .far {
     position: absolute;
 opacity: 0;
-font-size: 28px;
+font-size: 0px;
 display: flex;
 
 
@@ -289,7 +289,7 @@ display: flex;
 p {
   padding-left: 10px;
 text-align: left;
-
+margin-top: -15px;
 
 }
 &__imgrest {

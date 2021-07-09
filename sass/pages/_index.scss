@@ -265,6 +265,9 @@ display: flex;
         
     
     }  
+
+
+  
   
   
   
@@ -684,7 +687,59 @@ display: flex;
 justify-content: center;
 
 
-
+.heart {
+  font-size: 26px;
+  padding-left: 105px;
+  padding-right: 30px;
+ padding-top: 30px;
+  display: flex;
+  margin-top: -30px;
+  
+    .fas {
+      position: absolute;
+  opacity: 0;
+  font-size: 88px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: -20px;
+  
+    }
+    .far {
+      position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  display: flex;
+  
+  
+    }
+        &:hover {
+          .apparait {
+           position: absolute;
+        padding-right: 3px;
+        padding-left: 3px;
+        margin-left: -5px;
+           margin-top: -2.5px;
+            transition: 1000ms ease-in-out;
+         
+           opacity: 10;
+            color: transparent;
+            background: linear-gradient($couleur-primaire, $couleur-secondaire);
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-size: 32px;
+          }
+  
+         
+          
+      
+      }  
+  
+  
+    
+    
+    
+    
+    }
 
 
 
@@ -697,8 +752,10 @@ justify-content: center;
 
 
   p {
-text-align: center;
+text-align: left;
     padding: 0px;
+    margin-left: 120px;
+    margin-top: -20px;
   }
 
   a {

@@ -25,11 +25,21 @@
 
 @keyframes cascade {
   from {
-  transform: translateY(10px);
+  transform: translatey(20px);
     opacity: 0%;
   }
   to {
-    transform: translateY(0px);
+    transform: translatey(0px);
+    opacity: 100%;
+  }
+}
+@keyframes pucerotate {
+  from {
+  transform: rotatex(0 deg);
+    opacity: 0%;
+  }
+  to {
+    transform: rotatex(365 deg);
     opacity: 100%;
   }
 }

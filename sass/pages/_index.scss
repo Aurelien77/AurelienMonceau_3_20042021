@@ -403,6 +403,7 @@ header a {
 
 }
 
+
 .restaurant {
   display: flex;
    width: 100%;
@@ -495,6 +496,12 @@ font-weight: bold;
      margin-top: -15px;
      margin-right: 10px ;
     
+
+
+
+
+
+     
    }
     }
     
@@ -502,7 +509,24 @@ font-weight: bold;
 
 
 
-  
+      .valider {
+        position: absolute;
+      display: flex;
+      
+        .fa-check-circle {
+          position: relative;
+      font-size: 30px;
+        &:hover {
+          transform: translate(-100px, 0) rotate(-360deg);
+          
+        background-color: pink;
+        animation-fill-mode: both;
+        transition: transform 2.2s;
+      
+        }
+      }
+      
+      }
   
 
 h3 {

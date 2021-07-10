@@ -21,3 +21,15 @@
     transform: scale(1);
   }
 }
+
+
+@keyframes cascade {
+  from {
+  transform: translateY(10px);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}

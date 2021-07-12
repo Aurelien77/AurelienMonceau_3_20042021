@@ -456,7 +456,6 @@ margin-right: 285px;
 }
 
 
-  
 
 
 .menutitre{
@@ -470,11 +469,13 @@ font-weight: bold;
 &:hover {
 
  
-   
+ 
 
 
 
 }
+
+
 
   &__text{
      text-align: left;
@@ -498,7 +499,7 @@ font-weight: bold;
      font-size: 13px;
      flex-direction: row;
      font-weight: bold;
-
+   
 
      .fa-check-circle{
       position: absolute;
@@ -519,10 +520,11 @@ font-weight: bold;
         opacity: 1;
           transform: translate(-20px, 0) rotate(360deg);
           position: absolute;
-        background-color: pink;
+    
         animation-fill-mode: both;
         transition: transform 1.2s;
-
+     
+       
       } 
     
      
@@ -540,19 +542,20 @@ font-weight: bold;
       margin-right: 10px ;
       justify-content: flex-end;
       font-size: 15px;
-      transition-duration: 2s;
+      transition-duration: 0.5s;
       transition-property: margin-right , red;
       animation-fill-mode: both;
+    
 
 
 
       &:hover {
 
-        transition-duration: 2s;
+       /*  transition-duration: 2s;
         transition-property: margin-right, red;
-        animation-fill-mode: both;
+        animation-fill-mode: both; */
    margin-right: 70px;
-
+   
 
 
       }
@@ -560,27 +563,25 @@ font-weight: bold;
  }
 
 
- .testprix2 {
+ .testprix2{
   text-align: right;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   margin-top: -15px;
-  margin-right: 10px ;
+
   justify-content: flex-end;
 
-
-  
-  &:hover {
-
-   
-padding-right: 70px;
+&:hover {
 
 
-
-  }
-
-   
+  width:50px; 
+  height:100px; 
+  background:#f0f; 
+  transition:width 2s; 
+  -webkit-transition:width 2s;
 }
+  
+ }
 
 
 

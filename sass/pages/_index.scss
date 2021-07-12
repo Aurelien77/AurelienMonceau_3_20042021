@@ -483,6 +483,13 @@ font-weight: bold;
        font-weight: 500;
        text-align: left;
        
+
+
+
+
+  
+
+
       }
 
    
@@ -491,55 +498,92 @@ font-weight: bold;
      font-size: 13px;
      flex-direction: row;
      font-weight: bold;
+
+
      .fa-check-circle{
       position: absolute;
-     margin-top: -17px;
+     margin-top: -22px;
       font-size: 30px;
    display: flex;
    align-content: flex-end;
    flex-direction: column;
-   margin-left: 1840px;
-   margin-top: -42px;
+   
+
    opacity: 0;
      }
  
      &:hover { 
    
       .fa-check-circle {
-        
+        margin-right: 0px;
         opacity: 1;
           transform: translate(-20px, 0) rotate(360deg);
           position: absolute;
         background-color: pink;
         animation-fill-mode: both;
         transition: transform 1.2s;
-padding: 10px;
+
       } 
     
-   
-    
+     
     
     }
-     p {
+
+
+
+
+     .testprix {
       text-align: right;
       display: flex;
       flex-direction: row;
-      margin-top: -15px;
+      margin-top: -20px;
       margin-right: 10px ;
       justify-content: flex-end;
+      font-size: 15px;
+      transition-duration: 2s;
+      transition-property: margin-right , red;
+      animation-fill-mode: both;
+
+
+
       &:hover {
 
-
-   padding-right: 50px;
+        transition-duration: 2s;
+        transition-property: margin-right, red;
+        animation-fill-mode: both;
+   margin-right: 70px;
 
 
 
       }
  
-     
- 
-      
-    }
+ }
+
+
+ .testprix2 {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  margin-top: -15px;
+  margin-right: 10px ;
+  justify-content: flex-end;
+
+
+  
+  &:hover {
+
+   
+padding-right: 70px;
+
+
+
+  }
+
+   
+}
+
+
+
 
 
    

@@ -33,25 +33,8 @@
     opacity: 100%;
   }
 }
-@keyframes pucerotate {
-  from {
-  transform: rotatex(0 deg);
-    opacity: 0%;
-  }
-  to {
-    transform: rotatex(365 deg);
-    opacity: 100%;
-  }
-}
 
 
-@keyframes rotate {
-  0% {
-      transform:rotatex(-365deg)
-  }
-  100% {
-      transform: rotatex(0deg);
-  }
-}
+
 
 

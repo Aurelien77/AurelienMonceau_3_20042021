@@ -519,11 +519,11 @@ font-weight: bold;
      .fa-check-circle{
       position: absolute;
      margin-top: -22px;
-      font-size: 30px;
+      font-size: 20px;
    display: flex;
    align-content: flex-end;
    flex-direction: column;
-   
+   color: white;
 
    opacity: 0;
      }
@@ -533,7 +533,7 @@ font-weight: bold;
       .fa-check-circle {
         margin-right: 0px;
         opacity: 1;
-          transform: translate(-20px, 0) rotate(360deg);
+          transform: translate(-12px, 0) rotate(360deg);
           position: absolute;
     
         animation-fill-mode: both;
@@ -553,9 +553,9 @@ font-weight: bold;
         opacity: 1;
           transform: translate(-20px, 0) rotate(360deg);
           position: absolute;
-    
+   
         animation-fill-mode: forwards;
-        transition: transform 1.2s;
+        transition: transform 0.5s;
      
        
       } 
@@ -564,7 +564,7 @@ font-weight: bold;
     
     }
 
-
+  /*  calque front  */
      .testprix {
       text-align: right;
       display: flex;
@@ -574,20 +574,20 @@ font-weight: bold;
       justify-content: flex-end;
       font-size: 15px;
       transition-duration: 0.5s;
-      transition-property: margin-right , red;
-      animation-fill-mode: both;
     
+      animation-fill-mode: both;
+      border-radius: 12px;
 background-color:white;
 padding: 20px;
 margin-right: -4px;
 margin-top: -38px;
-
+box-shadow: 4px 4px #e4e1e1;
       &:hover {
 
        /*  transition-duration: 2s;
         transition-property: margin-right, red;
         animation-fill-mode: both; */
-   margin-right: 70px;
+   margin-right: 45px;
   
 
 
@@ -651,12 +651,13 @@ position: relative;
 /*  MISE EN PAGE  DES MENUS*/ 
 .cellules {
 background-color: white;
-height: 50px;
+height: 55px;
 border-radius: 12px;
 box-shadow: 4px 4px #e4e1e1;
 font-size: 14px;
 margin-top: 20px;
 background-color: $couleur-tertiaire;
+
 &:hover {
   
   
@@ -886,10 +887,10 @@ justify-content: center;
     .fas {
       position: absolute;
   opacity: 0;
-  font-size: 88px;
+  font-size: 2px;
   display: flex;
-  margin-top: -30px;
-  margin-left: -20px;
+  margin-top: 0px;
+  margin-left: 0px;
   
     }
     .far {
@@ -937,6 +938,14 @@ justify-content: center;
    }
 
 
+
+
+
+
+
+
+
+   
 
 
   p {

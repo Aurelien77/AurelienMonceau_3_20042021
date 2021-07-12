@@ -1,3 +1,9 @@
+/*  /*Animation de transition de fond
+   background-color: #AD310B;
+   -webkit-transition: background-color 1000ms linear;
+   -ms-transition: background-color 1000ms linear;
+   transition: background-color 1000ms linear;
+  */
  /*Animation au chargement de la page*/
 .loading {
   position: fixed;
@@ -455,7 +461,16 @@ margin-right: 285px;
 
 }
 
+.background {
+z-index: 1;
+background-color: red;
+&:hover {
 
+
+  width: 80%;
+}
+
+}
 
 
 .menutitre{
@@ -468,7 +483,7 @@ font-weight: bold;
 
 &:hover {
 
- 
+
  
 
 
@@ -562,8 +577,10 @@ font-weight: bold;
       transition-property: margin-right , red;
       animation-fill-mode: both;
     
-
-
+background-color:white;
+padding: 20px;
+margin-right: -4px;
+margin-top: -38px;
 
       &:hover {
 
@@ -571,7 +588,7 @@ font-weight: bold;
         transition-property: margin-right, red;
         animation-fill-mode: both; */
    margin-right: 70px;
-   
+  
 
 
       }
@@ -584,9 +601,9 @@ font-weight: bold;
   display: flex;
   align-items: center;
   margin-top: -15px;
-
+position: relative;
   justify-content: flex-end;
-
+  
 &:hover {
 
 
@@ -631,14 +648,20 @@ font-weight: bold;
       
       } */
   
-
-h3 {
+/*  MISE EN PAGE  DES MENUS*/ 
+.cellules {
 background-color: white;
 height: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px #e4e1e1;
 font-size: 14px;
+margin-top: 20px;
+background-color: $couleur-tertiaire;
+&:hover {
+  
+  
 
+}
 }
 
 

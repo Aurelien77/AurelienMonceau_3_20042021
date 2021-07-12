@@ -43,3 +43,15 @@
     opacity: 100%;
   }
 }
+
+
+@keyframes rotate {
+  0% {
+      transform:rotatex(-365deg)
+  }
+  100% {
+      transform: rotatex(0deg);
+  }
+}
+
+

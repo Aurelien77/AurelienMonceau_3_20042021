@@ -216,7 +216,7 @@ margin-left: -200px;
 
 }
 
-h3 {
+.head {
   display: flex;
 justify-content: space-between;
   padding-left: 10px;
@@ -870,7 +870,7 @@ margin-left: 0px;
  @include centrer;
   }
 
-  h3 {
+  .head {
 display: flex;
     padding-left: 10px;
 justify-content: center;

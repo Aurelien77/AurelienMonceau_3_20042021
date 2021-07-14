@@ -373,9 +373,18 @@ margin-left: 40px;
 
                             /* Pages des restaurants*/
 
+.uppercase {
 
 
+  text-transform: uppercase;
 
+}                
+
+.gras {
+
+font-weight: bold;
+
+}
 header a {
 
   display: flex;
@@ -629,51 +638,20 @@ position: relative;
 
 .menutitre {
     height: 100%;
-    
+    border-radius: 12px;
     display: inline;
     overflow: hidden;
     text-overflow: ellipsis;
+font-size: 16px;
+padding-top: 14px;
 
-
+line-height: 1.4;
 
     transition-duration: 0.5s;
     
     animation-fill-mode: both;
     border-radius: 12px;
-    .fa-check-circle{
-      position: absolute;
- 
-      font-size: 20px;
-    display: flex;
-    align-content: flex-end;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    opacity: 0;
-     }
-
-   &:hover {
    
-   
-    
-
-
- 
-    
-    .fa-check-circle {
-      margin-left: 15px;
-      margin-top: -25px;
-      opacity: 1;
-        transform: translate(-12px, 0) rotate(360deg);
-      
-  color:white;
-      animation-fill-mode: both;
-      transition: transform 1.2s;
-    }
-
-  }
-
-
 
 
   
@@ -683,14 +661,14 @@ position: relative;
         text-overflow: ellipsis;
         display: inline;
         white-space: nowrap;
-     
+      padding-left: 10px;
     }
 
 &__prix {
-  height: 100%;
+ 
   background-color: white;
 text-align: center;
-
+border-radius: 12px;
 }
 
 &__text
@@ -703,9 +681,46 @@ background-color: white;
   height: 100%;
   justify-content: space-between;
   align-content: space-around;
-box-shadow: 4px 4px #e4e1e1;
+
 border-radius: 12px;
 margin-top: 20px;
+.fa-check-circle{
+  position: absolute;
+
+  font-size: 20px;
+display: flex;
+align-content: flex-end;
+flex-direction: column;
+margin: 0px;
+padding: 0px;
+opacity: 0;
+ }
+
+&:hover {
+
+  border-top-right-radius: 0px;
+ 
+  border-bottom-right-radius: 0px;
+    width: 85%;
+    
+ 
+    
+
+
+
+
+.fa-check-circle {
+  margin-left: 45px;
+  margin-top: -25px;
+  opacity: 1;
+    transform: translate(-12px, 0) rotate(360deg);
+  
+color:white;
+  animation-fill-mode: both;
+  transition: transform 1.2s;
+}
+
+}
 
 }
 
@@ -721,12 +736,13 @@ margin-top: 20px;
     display: flex;
     align-items: center;
     padding-right: 15px;
-    padding-top: 16px ;
+    padding-top: 16px;
     border-radius: 12px;
+    
 	&:hover {
 	
-background-color: $couleur-tertiaire;
-padding-right: 45px;
+/* background-color: $couleur-tertiaire;
+padding-right: 45px; */
 
 border-radius: 12px;
 
@@ -771,11 +787,11 @@ border-radius: 12px;
   
 /*  MISE EN PAGE  DES MENUS*/ 
 .cellules {
-background-color: white;
+
 height: 55px;
 border-radius: 12px;
 box-shadow: 4px 4px #e4e1e1;
-font-size: 14px;
+
 margin-top: 20px;
 background-color: $couleur-tertiaire;
 

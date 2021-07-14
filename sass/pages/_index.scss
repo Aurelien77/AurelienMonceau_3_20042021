@@ -354,10 +354,19 @@ footer {
   color: white;
   background-color: #353535;
   width: 100%;
-  line-height: 2;
+  line-height: 1.7;
   display: flex;
   flex-direction: column;
+ 
+  .fa-utensils {
+padding-right: 15px;
 
+}
+.fa-hands-helping {
+  padding-right: 8px;
+
+
+}
   
 }
 /* Titre homyfood*/

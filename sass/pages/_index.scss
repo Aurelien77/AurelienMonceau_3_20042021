@@ -461,25 +461,18 @@ margin-right: 285px;
 
 }
 
-.background {
-z-index: 1;
-background-color: red;
-&:hover {
 
 
-  width: 80%;
-}
-
-}
 
 
-.menutitre{
+
+/* menutitre{
   background-color: white;
   height: 50px;
   border-radius: 12px;
   box-shadow: 4px 4px #e4e1e1;
   font-size: 20px;
-font-weight: bold;
+/*font-weight: bold;
 
 &:hover {
 
@@ -563,7 +556,7 @@ font-weight: bold;
      
     
     }
-
+ */
   /*  calque front  */
      .testprix {
       text-align: right;
@@ -624,9 +617,137 @@ position: relative;
      
    
     }
-    
-      
 
+
+
+
+
+
+
+
+
+
+.menutitre {
+    height: 100%;
+    
+    display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+
+    transition-duration: 0.5s;
+    
+    animation-fill-mode: both;
+    border-radius: 12px;
+    .fa-check-circle{
+      position: absolute;
+ 
+      font-size: 20px;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0;
+     }
+
+   &:hover {
+   
+   
+    
+
+
+ 
+    
+    .fa-check-circle {
+      margin-left: 15px;
+      margin-top: -25px;
+      opacity: 1;
+        transform: translate(-12px, 0) rotate(360deg);
+      
+  color:white;
+      animation-fill-mode: both;
+      transition: transform 1.2s;
+    }
+
+  }
+
+
+
+
+  
+
+      p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline;
+        white-space: nowrap;
+     
+    }
+
+&__prix {
+  height: 100%;
+  background-color: white;
+text-align: center;
+
+}
+
+&__text
+{
+  display: flex;
+padding-left: 5px;
+background-color: white;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  align-content: space-around;
+box-shadow: 4px 4px #e4e1e1;
+border-radius: 12px;
+margin-top: 20px;
+
+}
+
+
+&__calqprix {
+    font-size: 15px;
+    text-align: center;
+    height: 100%;
+    transition-duration: 0.5s;
+    animation-fill-mode: both;
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 16px ;
+    border-radius: 12px;
+	&:hover {
+	
+background-color: $couleur-tertiaire;
+padding-right: 45px;
+
+border-radius: 12px;
+
+	}
+}
+
+&__calqcheck {
+
+	position: absolute;
+
+ 
+
+
+
+
+
+	
+}
+
+
+}
 
 
       /* .valider {
@@ -666,8 +787,7 @@ background-color: $couleur-tertiaire;
 }
 
 
-  }
-  }
+  
 
 
 /*  Breckpoint Desktop*/ 

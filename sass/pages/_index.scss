@@ -227,19 +227,21 @@ justify-content: space-between;
      
 
   .heart {
-font-size: 20px;
-padding-left: 105px;
-padding-right: 30px;
-display: flex;
+    font-size: 26px;
+    padding-left: 105px;
+    padding-right: 30px;
+   padding-top: 30px;
+    display: flex;
+    margin-top: -30px;
 
 
   .fas {
     position: absolute;
-opacity: 0;
-font-size: 88px;
-display: flex;
-margin-top: -20px;
-margin-left: -20px;
+    opacity: 0;
+    font-size: 2px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
 
   }
   .far {
@@ -390,7 +392,7 @@ margin-left: 40px;
 }                
 
 .gras {
-
+font-weight: 900;
 font-weight: bold;
 
 }
@@ -452,7 +454,7 @@ font-family: $font-texte;
   }
 &__menupre{
 
-
+font-weight: 500;
 
 margin-top: -260px;
 border-radius: 20px;
@@ -470,7 +472,7 @@ h1 {
 }
 
 h2 {
-
+  font-weight:lighter;
 font-weight: 100;
  border-bottom: 2px solid $couleur-tertiaire;
  padding-bottom: 5px;
@@ -671,6 +673,7 @@ line-height: 1.4;
         display: inline;
         white-space: nowrap;
       padding-left: 10px;
+      
     }
 
 &__prix {

@@ -102,7 +102,7 @@ display: flex;
 flex-direction: column;
  h1 {
   font-family: $font-texte;
-  font-size: 30px;
+  font-size: 27px;
      font-weight: bold; 
 text-align: center;
 margin-bottom: 0px;
@@ -112,11 +112,14 @@ padding-right: 20px;
 
 h2 {
   font-family: $font-texte;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
-  font-weight: 200; 
-  padding-left: 8px;
-padding-right: 8px;
+  font-weight: lighter;
+  font-weight: 100; 
+  padding-left: 4px;
+padding-right: 4px;
+margin-bottom: 25px;
+
   }
 
 h3 {
@@ -140,6 +143,39 @@ margin-left: 0px;
 margin-top: 60px;
 padding-top: 30px;
 margin-bottom: 25px;
+
+&__bout {
+  background-color: #F4F4F4;
+  
+  
+  &:hover {
+  
+    background-color: #f2eafb;
+    box-shadow :1px 5px 12px 1px  #c7c6c6;
+    -webkit-transition: background-color 1000ms linear;
+    -webkit-transition: box-shadow  100ms linear;
+    
+  
+    -ms-transition: background-color 1000ms linear;
+    -ms-transition: box-shadow 100ms linear;
+
+    transition: background-color 1000ms linear;
+    transition: box-shadow 100ms linear;
+  
+  
+  
+  }  
+
+
+  &:active {
+  
+ 
+
+  
+  } 
+  }
+
+
   h2 {
     font-family: $font-texte;
     font-size: 20px;
@@ -168,10 +204,11 @@ height: 40px;
 padding-top: 15px;
 padding-bottom: 15px;
 margin-bottom: 15px;
+margin-top: 5px;
 width: 90%;
 justify-content: space-evenly;
 background-color: $background-grey;
-box-shadow: 4px 4px #e4e1e1;
+box-shadow: 3px 3px 8px 2px #e4e1e1;
 
 i {
 
@@ -181,9 +218,15 @@ margin-left: -20px;
 }
 
 
-&#a:hover {
-  background-color: $couleur-tertiaire;
 
+
+/* &#a:hover {
+ 
+   background-color: #F4F4F4;
+   -webkit-transition: background-color 1000ms linear;
+   -ms-transition: background-color 1000ms linear;
+   transition: background-color 1000ms linear;
+ 
 }
 &#b:hover {
 
@@ -192,7 +235,7 @@ margin-left: -20px;
   &#c:hover {
 
     background-color: $couleur-primaire;
-    }
+    } */
   }
 
 
@@ -214,15 +257,16 @@ h2 {
 padding-left: 10px;
 margin-left: -200px;
 
+
 }
 
 .head {
   display: flex;
 justify-content: space-between;
-  padding-left: 10px;
+  padding-left: 0px;
  
  
-
+  
  
      
 
@@ -232,7 +276,7 @@ justify-content: space-between;
     padding-right: 30px;
    padding-top: 30px;
     display: flex;
-    margin-top: -30px;
+    margin-top: -25px;
 
 
   .fas {
@@ -298,7 +342,7 @@ display: flex;
 
 
 p {
-  padding-left: 10px;
+  padding-left: 0px;
 text-align: left;
 margin-top: -15px;
 
@@ -917,67 +961,17 @@ width: 30%;
    
   
    
-   .choix{
-    margin-top: -40px;
-   background-color: white;
-  margin-bottom: 0px;
-     h2 {
-      font-family: $font-texte;
-      font-size: 30px;
-      
-         font-weight: bold; 
-      
-         margin-left: 0px;
-         
-             text-align: center;
-            width: 100%;
-             
-      
-      
-  
-     }
-
-     ul {
-
-      display: flex;
-      flex-direction: row;
-    align-content: center;
-         }
-
-
-     li {
-     
-        
-        background-color: white;
-        margin-bottom: 15px;
-        display: flex;
-        
-        align-items: center;
-        border-radius: 20px;
-        width: 30%;
-        height: 40px;
- 
-
-  
-   &:hover li  {
-     background-color: $couleur-primaire;
-   }
-
-
-     }
    
-   }
-
-
   
 
     .colonnes {
 
-
+display: flex;
       @include colonnes;
     
-     width: 100%;
+   
     background-color: white;
+ flex-direction: column;
  
      h2 {
 
@@ -1015,7 +1009,13 @@ font-weight: bold;
   h2 {
 margin-left: 0px;
    display: flex;
+   justify-content: center;
  @include centrer;
+  }
+
+  p{
+
+
   }
 
   .head {

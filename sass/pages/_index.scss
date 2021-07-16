@@ -264,7 +264,7 @@ margin-left: -200px;
   display: flex;
 justify-content: space-between;
   padding-left: 0px;
- 
+ margin-top: 10px;
  
   
  
@@ -345,7 +345,7 @@ p {
   padding-left: 0px;
 text-align: left;
 margin-top: -15px;
-
+line-height: 0.5;
 }
 &__imgrest {
   display: flex;
@@ -361,12 +361,7 @@ margin-bottom: 20px;
 
 
 
-
-
-a {
-
-  line-height: 0.5;
- } 
+ 
 .calquenew  {
 display: flex;
 margin-right: 10px;
@@ -863,7 +858,7 @@ background-color: $couleur-tertiaire;
 
 
 /*  Breckpoint Desktop*/ 
-@media only screen and (min-width: 1024px)  { 
+@media only screen and (min-width: 1401px)  { 
 body {
 
 
@@ -1344,11 +1339,12 @@ margin-right: 20px;
      }
   
   
-    
+     
+      
   
       .colonnes {
   
-  
+  display: flex;
         @include colonnes;
       
        width: 100%;
@@ -1363,24 +1359,48 @@ margin-right: 20px;
       }
       p {
 display: flex;
+padding-left: 20px;
 
-text-align: center;
 
+
+      }
+
+      .head {
+
+
+        padding-left: 20px;
       }
       &__imgrest {
        background-color: $background-grey;
         display: flex;
         width: 90%;
-    flex-direction: column;
+        
     font-family: $font-texte;
        font-size: 20px;
   font-weight: bold; 
+  align-items: flex-start;
+
+.calquenew  {
+      display: flex;
+      margin-right: 10px;
+      margin-top: 10px;
+     
+      background-color: $couleur-tertiaire;
+      width: 20%;
+      height: 25px;
+     
+       @include centrer;
+       font-size: 13px;
+      font-weight: bold;
+      color: rgb(10, 92, 74);
+      }
+
+
+
 
   h3 {
-    display: flex;
-        padding-left: 10px;
-  
-    
+
+
 
     .heart {
       display: flex;
@@ -1445,13 +1465,9 @@ text-align: center;
 
      }
     a {
-  width: 100%;
-    
+
   }
-    figcaption {
-    text-align: left;
-  
-    }
+    
      img {
      
       border-radius: 20px;

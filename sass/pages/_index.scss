@@ -1098,15 +1098,16 @@ width: 100%;
     .colonnes {
      
 display: flex;
-      @include colonnes;
 
     background-color: white;
- flex-direction: column;
- 
+ flex-direction:row;
+ flex-wrap: wrap;
+
      h2 {
-
+    display:inline-block;
 margin-left: 0px;
-
+width: 100%;
+text-align: center;
      }
   
 
@@ -1208,22 +1209,24 @@ margin-left: 0px;
     &__imgrest {
      background-color: $background-grey;
       display: flex;
-      width: 30%;
+      width: 35%;
+     
   flex-direction: column;
   font-family: $font-texte;
      font-size: 20px;
 font-weight: bold; 
 
-
+margin-right: 10px;
+margin-left: 10px;
 
 .calquenew  {
   display: flex;
 
-  margin-right: 0px;
+  margin-right: 20px;
   margin-top: 10px;
   position:absolute;
   background-color: $couleur-tertiaire;
-  width: 30%;
+  width: 10%;
   height: 35px;
    @include centrer;
    font-size: 13px;

@@ -268,7 +268,7 @@ justify-content: space-between;
  
   .heart {
     font-size: 26px;
-    padding-left: 105px;
+    padding-left: 0px;
     padding-right: 30px;
    padding-top: 30px;
     display: flex;
@@ -1529,7 +1529,7 @@ line-height: 2;
            font-weight: bold; 
         
            margin-left: 0px;
-           
+          
                text-align: center;
               width: 100%;
                
@@ -1547,7 +1547,7 @@ line-height: 2;
   
   
        li {
-       
+        padding-right: 10px;
           display: flex;
           
           background-color: white;

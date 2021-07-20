@@ -1,129 +1,224 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-    <head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<!--  Chargement des îcones depuis le site fontawesome    -->
-     <script
-     src="https://kit.fontawesome.com/a60aae1ab2.js"
-     crossorigin="anonymous"
-   ></script>
-   <!--  Chargement de la feuille de style   -->
-   <link rel="stylesheet" href="./css/style.css"/>
-        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  Chargement des îcones depuis le site fontawesome    -->
+    <script
+      src="https://kit.fontawesome.com/a60aae1ab2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--  Chargement de la feuille de style   -->
+    <link rel="stylesheet" href="./css/style.css" />
 
-   <!--  Chargement de la font Roboto et Shrikhan  -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shrikhand&display=swap" rel="stylesheet">
-     <!--  titre de la page  -->
- <title>Menu - Le délice des sens
-</title>    
-</head>
+    <!--  Chargement de la font Roboto et Shrikhan  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <!--  titre de la page  -->
+    <title>Menu - Le délice des sens</title>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div> <!--  Placer la balise I  --></div>
-        <div> <img
-            src="Maquettes-Ohmyfood/images/logo/ohmyfood@2x.svg"
-            alt="image du logo ohmyfood"
-          />  </div> 
+      <a href="index.html">
+        <i class="fas fa-arrow-left"></i>
+        <img
+          src="Maquettes-Ohmyfood/images/logo/ohmyfood@2x.svg"
+          alt="image du logo ohmyfood"
+        />
+      </a>
     </header>
     <main>
-        <div class="restaurant">
-            <div class="restaurant__imagearierre">
-<!--  section  en dessous du header -->
- <img
-    src="Maquettes-Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-    alt="Image du restaurant Le délice des sens"
-  />  </div>    
-  
-  
-  <section class="restaurant__menupre">
- 
-   <h1> Le délice des sens </h1>
+      <div class="restaurant">
+        <div class="restaurant__imagearierre">
+          <!--  section  en dessous du header -->
+          <img
+            src="Maquettes-Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+            alt="Image du restaurant Le délice des sens"
+          />
+        </div>
 
-<h2>ENTREES</h2>
-<h3> Tartare de thon
-    Assaisonné au yuzu
-    25€
-    </h3>
-<h3> Bouchée de homard croustillant 
-    Et sa farandole de petits légumes
-    35€ </h3>
-<h3> Velouté de cèpes 
-    Aux truffes
-    20€ </h3>
+        <section class="restaurant__menupre">
+          <h1>
+            La note enchantée
+            <span class="heart far fa-heart"
+              ><i class="fas fa-heart apparait"></i>
+            </span>
+          </h1>
 
-  
-<!--  Div des entrées -->
+          <h2 class="uppercase">entrées</h2>
 
+          <div class="cascade cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Tartare de thon</p>
+                <br />
+                <p>Assaisonné au yuzu</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">25€</span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
 
+          <div class="cascade2 cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Bouchée de homard croustillant</p>
+                <br />
+                <p>Et sa farandole de petits légumes</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">35€ </span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
 
-   
-    <h2>Plats</h2>
-
-    <h3>
-        Poulet rôti aux herbes de Provence 
-        Et sa crème de truffe
-        40€
-</h3>
-    
-
-    <h3>
-        Langouste rôtie 
-        Et ses légumes de saison
-        35
-</h3>
- 
-    <h3>
-        Côte de boeuf Angus 
-        Et sa purée de panais
-        44€
-</h3>
-
- 
- 
-
-    
-    <h2>Desserts</h2>
-    
-        <h3>
-            Farandole de desserts
-            Du chef
-            18€
-            
-    </h3>
-        
-  <h3>
-    Crème brulée 
-    Revisitée
-    22€
-</h3>      
- 
-  <h3>
-    Tiramisu 
-        À la noisette
-        23€   </h3> 
+          <div class="cascade3 cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Velouté de cèpes</p>
+                <br />
+                <p>Aux truffes</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix"> 20€</span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
 
 
-        </section>     </div> 
-        <div class="boutonco">  <a href="#"> Commander  </a></div>  
+         
+
+          <!--  Div des entrées -->
+
+          <h2>Plats</h2>
+
+          <div class="cascade cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Poulet rôti aux herbes de Provence</p>
+                <br />
+                <p>Et sa crème de truffe</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">40€ </span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cascade2 cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Langouste rôtie</p>
+                <br />
+                <p>Et ses légumes de saison</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">35€ </span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cascade3 cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Côte de boeuf Angus</p>
+                <br />
+                <p> Et sa purée de panais</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">44€ </span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <h2>Desserts</h2>
+
+          <div class="cascade cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Farandole de desserts</p>
+                <br />
+                <p>Du chef</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">18€ </span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cascade2 cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Crème brulée</p>
+                <br />
+                <p>Revisitée</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">22€</span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cascade3 cellules">
+            <div class="menutitre__text">
+              <div class="menutitre">
+                <p class="menutitre gras">Tiramisu</p>
+                <br />
+                <p>À la noisette</p>
+              </div>
+              <div class="menutitre__prix">
+                <span class="menutitre__calqprix">23€ </span>
+                <span class="menutitre__calqcheck">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="boutonco"><a href="#"> Commander </a></div>
     </main>
     <footer class="footer">
-        <h2 class="titrebas">homyfood</h2>
-          <ul>
-      
-      <li class><i class="fas fa-utensils"></i>Proposer un restaurant</li>
-      
-      <li class> <i class="fas fa-hands-helping"></i>Devenir partenaire</li>
-      
-      <li>Mention légales</li>
-      <li>Contact</li>
-      
-          </ul>
-      </footer>
-    
-</body>
+      <h2 class="titrebas">ohmyfood</h2>
+      <ul>
+        <li class><i class="fas fa-utensils"></i>Proposer un restaurant</li>
+
+        <li class><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
+
+        <li>Mention légales</li>
+        <li><a href="mailto:ohmyfood@gmail.com">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>

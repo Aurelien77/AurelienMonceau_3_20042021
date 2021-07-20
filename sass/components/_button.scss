@@ -1,145 +1,127 @@
 .button {
-background-color:#AF5FDC;
-@include centrer;
-color: white;
-height: 50px;
-border-radius: 40px;
-
+  background-color: #af5fdc;
+  @include centrer;
+  color: white;
+  height: 50px;
+  border-radius: 40px;
 }
 
 .rond {
-color: white;
-    background-color: #AF5FDC;
+  color: white;
+  background-color: #af5fdc;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  margin-left: -80px;
+  margin-right: -25px;
+}
+
+.boutoncoex {
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+
+  margin-left: 70px;
+  margin-right: 70px;
+  background: $degrade;
+  transition: all 800ms;
+  transition: transform 250ms;
+  border-radius: 30px;
+  height: 33px;
+  a {
+    color: white;
+  }
+  &:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px #bfbaba;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+.boutonco {
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: $degrade;
+  transition: all 800ms;
+  transition: transform 250ms;
+  border-radius: 30px;
+  height: 33px;
+  a {
+    color: white;
+  }
+  &:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px #bfbaba;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+/*  Breckpoint Desktop*/
+@media only screen and (min-width: 600px) {
+  .rond {
+    color: white;
+    background-color: #af5fdc;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 20px;
-    margin-left: -80px;
-    margin-right: -25px;
-}
+    margin-left: -10px;
+    margin-right: -10px;
+  }
 
-    
-    
-           
-
-
-.boutoncoex{
+  .boutoncoex {
     display: flex;
-   
-align-content: center;
-    justify-content: center;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 10px;
-
-margin-left: 70px;
-margin-right: 70px;
-    background: $degrade;
-    transition: all 800ms;
-    transition: transform 250ms;
-    border-radius: 30px;
-    height: 33px;
-   a {
-    color: white;
-
-   }
-    &:hover {
-        opacity: 0.8;
-        box-shadow: 4px 4px #bfbaba;
-        -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-     
-        
-      }
-}
-
-
-
-.boutonco{
-    display: flex;
-   
-    align-content: center;
-    justify-content: center;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 10px;
-margin-left: 100px;
-margin-right: 100px;
-margin-top: 60px;
-margin-bottom: 20px;
-    background: $degrade;
-    transition: all 800ms;
-    transition: transform 250ms;
-    border-radius: 30px;
-    height: 33px;
-   a {
-    color: white;
-
-   }
-    &:hover {
-        opacity: 0.8;
-        box-shadow: 4px 4px #bfbaba;
-        -webkit-transform: scale(1.3);
-	transform: scale(1.3);
-     
-        
-      }
-}
-
-
-/*  Breckpoint Desktop*/
-@media only screen and (min-width: 600px)  { 
-    .rond {
-        color: white;
-            background-color: #AF5FDC;
-            padding-right: 10px;
-            padding-left: 10px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            border-radius: 20px;
-            margin-left: -10px;
-            margin-right: -10px;
-        }
-        
-
-.boutoncoex{
-        display: flex;
     width: 30%;
     align-content: center;
-        justify-content: center;
+    justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0px;
     padding-bottom: 25px;
     margin-left: 0px;
     margin-right: 0px;
-        background: $degrade;
-        transition: all 800ms;
-        transition: transform 250ms;
-        border-radius: 30px;
-        height: 33px;
-       
-       a {
-        color: white;
-       width: 100%;
-       text-align: center;
-       }
-        &:hover {
-            opacity: 0.8;
-            box-shadow: 4px 4px #bfbaba;
-            -webkit-transform: scale(1.3);
-        transform: scale(1.3);
-         
-            
-          }
-    }
+    background: $degrade;
+    transition: all 800ms;
+    transition: transform 250ms;
+    border-radius: 30px;
+    height: 33px;
 
-.boutonco{
-        display: flex;
-      
-        align-content: center;
-        justify-content: center;
+    a {
+      color: white;
+      width: 100%;
+      text-align: center;
+    }
+    &:hover {
+      opacity: 0.8;
+      box-shadow: 4px 4px #bfbaba;
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  }
+
+  .boutonco {
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -147,33 +129,28 @@ margin-bottom: 20px;
     margin-right: 100px;
     margin-top: 60px;
     margin-bottom: 20px;
-        background: $degrade;
-        transition: all 800ms;
-        transition: transform 250ms;
-        border-radius: 30px;
-        height: 33px;
-       a {
-        color: white;
-    
-       }
-        &:hover {
-            opacity: 0.8;
-            box-shadow: 4px 4px #bfbaba;
-            -webkit-transform: scale(1.3);
-        transform: scale(1);
-         
-            
-          }
+    background: $degrade;
+    transition: all 800ms;
+    transition: transform 250ms;
+    border-radius: 30px;
+    height: 33px;
+    a {
+      color: white;
     }
+    &:hover {
+      opacity: 0.8;
+      box-shadow: 4px 4px #bfbaba;
+      -webkit-transform: scale(1.3);
+      transform: scale(1);
+    }
+  }
 
-
-
-    /* .boutonco {
+  /* .boutonco {
         display: flex;
         align-content: center;
         justify-content: center;
         /* padding-left: 10px; */
-        /* padding-right: 10px; 
+  /* padding-right: 10px; 
         padding-top: 10px;
         margin-left: 600px;
         margin-right:600px;
@@ -200,15 +177,6 @@ margin-bottom: 20px;
           }
     }
      */
+}
 
-
-
-
-  }
-
-
-  /*  Breckpoint tablette*/
-
-
-
-    
+/*  Breckpoint tablette*/

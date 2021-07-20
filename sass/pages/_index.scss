@@ -287,12 +287,15 @@ width: 55%;
     text-align: left;
     margin-top: -15px;
     line-height: 0.5;
+    
   }
   &__imgrest {
+
+
+
+
     flex-direction: column;
-
     align-items: flex-end;
-
     width: 90%;
     @include mixfig;
     margin-bottom: 20px;
@@ -348,10 +351,16 @@ footer {
 .uppercase {
   text-transform: uppercase;
 }
+.leger{
+  font-weight: 400;
+ font-size: 13px;
 
+
+}
 .gras {
-  font-weight: 900;
   font-weight: bold;
+  font-weight: 900;
+
 }
 header a {
   display: flex;
@@ -406,12 +415,12 @@ header a {
 
     .heart {
       font-size: 26px;
-
+     
       padding-right: 30px;
       padding-top: 30px;
       display: flex;
       margin-top: -25px;
-
+      
       .fas {
         position: absolute;
         opacity: 0;
@@ -419,12 +428,14 @@ header a {
         display: flex;
         margin-top: 0px;
         margin-left: 0px;
+    
       }
       .far {
         position: absolute;
         opacity: 0;
         font-size: 0px;
         display: flex;
+        
       }
       &:hover {
         .apparait {
@@ -884,7 +895,7 @@ padding-right: 45px; */
 
     .head {
       display: flex;
-
+     
       padding-left: 0px;
       margin-top: 10px;
 

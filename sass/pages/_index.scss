@@ -112,7 +112,7 @@ padding-right: 20px;
 
 h2 {
   font-family: $font-texte;
-  font-size: 16px;
+  font-size: 1.5em;
   text-align: center;
   font-weight: lighter;
   font-weight: 100; 
@@ -146,6 +146,16 @@ margin-bottom: 25px;
 
 &__bout {
   background-color: #F4F4F4;
+ 
+.dec {
+
+i{
+
+margin-left: -80px;
+
+}
+}
+
   
   
   &:hover {
@@ -178,7 +188,7 @@ margin-bottom: 25px;
 
   h2 {
     font-family: $font-texte;
-    font-size: 20px;
+    font-size: 1.5em;
        text-align: left;
       width: 70%;
        font-weight: 900;
@@ -357,6 +367,7 @@ margin-top: 10px;
 position:absolute;
 background-color: $couleur-tertiaire;
 width: 20%;
+margin-left: 67%;
 height: 25px;
  @include centrer;
  font-size: 13px;
@@ -975,7 +986,7 @@ body {
   margin-top: 60px;
   padding-top: 30px;
   margin-bottom: 25px;
-  
+
   &__bout {
     background-color: #F4F4F4;
     
@@ -1010,22 +1021,24 @@ body {
   
     h2 {
       font-family: $font-texte;
-      font-size: 20px;
+      font-size:1.5em;
          text-align: center;
-        width: 70%;
+        width: 100%;
          font-weight: 900;
-         margin-left: -60px;
+         margin-left: 0px;
   margin-bottom: 0px;
+ 
   
     }
     ul {
-      width: 50%;
+      width: 70%;
   padding: 0px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       @include centrer;
       margin-left: 0px;
       margin-bottom: 40px;
+      
          }
   
     li {
@@ -1038,6 +1051,7 @@ body {
   padding-bottom: 15px;
   margin-bottom: 15px;
   margin-top: 5px;
+  margin-left: 30px;
   width: 90%;
   justify-content: space-evenly;
   background-color: $background-grey;
@@ -1369,9 +1383,26 @@ text-align: left;
   margin-left: -35px;
     }
    footer {
+display: flex;
+flex-direction: row;
 
-@include centrer;
 line-height: 2;
+justify-content: center;
+  display: flex;
+flex-direction: row;
+
+li {
+  margin-left: 70px;
+
+}
+
+  ul{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row
+
+
+}
    }
 
 

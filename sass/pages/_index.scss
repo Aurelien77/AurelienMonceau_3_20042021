@@ -154,6 +154,10 @@ width: 55%;
 
       transition: background-color 1000ms linear;
       transition: box-shadow 100ms linear;
+
+      i {
+        color: $couleur-primaire;
+      }
     }
 
     &:active {

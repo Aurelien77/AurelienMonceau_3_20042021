@@ -240,7 +240,7 @@ width: 55%;
   .head {
     display: flex;
     justify-content: space-between;
-    padding-left: 8px;
+    padding-left: 10px;
     margin-top: 10px;
 
     .heart {
@@ -288,7 +288,7 @@ width: 55%;
   }
 
   p {
-    padding-left: 8px;
+    padding-left: 10px;
     text-align: left;
     margin-top: -15px;
     line-height: 0.5;
@@ -349,6 +349,7 @@ footer {
   font-weight: 400;
   margin-bottom: -10px;
   margin-left: 40px;
+
 }
 
 /* Pages des restaurants*/
@@ -476,97 +477,7 @@ header a {
       margin-right: 285px;
     }
 
-    /* menutitre{
-  background-color: white;
-  height: 50px;
-  border-radius: 12px;
-  box-shadow: 4px 4px #e4e1e1;
-  font-size: 20px;
-/*font-weight: bold;
-
-&:hover {
-
-
- 
-
-
-
-}
-
-
-
-  &__text{
-     text-align: left;
-       font-size: 16px;
-       flex-direction: row;
-       font-weight: 500;
-       text-align: left;
-       
-
-
-
-
-  
-
-
-      }
-
-   
-&__prix {
- 
-     font-size: 13px;
-     flex-direction: row;
-     font-weight: bold;
-   
-
-     .fa-check-circle{
-      position: absolute;
-     margin-top: -22px;
-      font-size: 20px;
-   display: flex;
-   align-content: flex-end;
-   flex-direction: column;
-   color: white;
-
-   opacity: 0;
-     }
- 
-     &:hover { 
-   
-      .fa-check-circle {
-        margin-right: 0px;
-        opacity: 1;
-          transform: translate(-12px, 0) rotate(360deg);
-          position: absolute;
     
-        animation-fill-mode: both;
-        transition: transform 1.2s;
-     
-       
-      } 
-    
-     
-    
-    }
-
-    &:active { 
-   
-      .fa-check-circle {
-        margin-right: 0px;
-        opacity: 1;
-          transform: translate(-20px, 0) rotate(360deg);
-          position: absolute;
-   
-        animation-fill-mode: forwards;
-        transition: transform 0.5s;
-     
-       
-      } 
-    
-     
-    
-    }
- */
     /*  calque front  */
     .testprix {
       text-align: right;

@@ -178,7 +178,7 @@
      */
 }
 
-
+/*  Breckpoint Galaxy Fold*/
 
 @media only screen and (width: 280px) {  
 
@@ -251,4 +251,23 @@
   }
 
  }
+
+ /*  Breckpoint iphone 5/SE*/
+
+@media only screen and (width: 320px) {
+
+  .rond {
+    color: white;
+    background-color: #af5fdc;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-left: -67px;
+    margin-right: -25px;
+  }
+
+
+}
 

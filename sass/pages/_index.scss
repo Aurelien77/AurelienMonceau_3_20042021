@@ -1096,6 +1096,7 @@ margin-left: 24.5%;
       width: 30%;
     }
 
+
     h1 {
       font-family: $font-texte;
       font-size: 35px;
@@ -1160,7 +1161,14 @@ margin-left: 24.5%;
       }
     }
   }
+  .uni{
 
+
+    width: 75%;
+    
+    
+    
+    }
   .colonnes {
     display: flex;
     @include colonnes;
@@ -2038,4 +2046,25 @@ margin-left: 24.5%;
     &:hover {
     }
   }
+}
+
+
+
+/*  Breackpoint iphone 5/SE*/
+@media only screen and (width: 320px) {
+
+  .colonnes {
+    display: flex;
+    @include colonnes;
+
+    width: 100%;
+    background-color: white;
+
+    h2 {
+      padding-left: 10px;
+margin-left: -160px;
+
+ 
+    } }
+
 }

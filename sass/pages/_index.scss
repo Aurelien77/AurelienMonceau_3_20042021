@@ -235,6 +235,7 @@ width: 62%;
   h2 {
     padding-left: 10px;
     margin-left: -200px;
+
   }
 
   .head {
@@ -1542,7 +1543,7 @@ margin-left: 24.5%;
   
     h2 {
       padding-left: 10px;
-      margin-left: -100px;
+      margin-left: -125px;
     }
   
     .head {
@@ -2050,8 +2051,8 @@ margin-left: 24.5%;
 
 
 
-/*  Breackpoint iphone 5/SE*/
-@media only screen and (width: 320px) {
+/*  Breackpoint iphone 5/SE portrait) */
+@media only screen and (width: 320px)  and (orientation:portrait) {
 
   .colonnes {
     display: flex;
@@ -2062,9 +2063,137 @@ margin-left: 24.5%;
 
     h2 {
       padding-left: 10px;
-margin-left: -160px;
+width: 30%;
 
  
     } }
 
 }
+
+
+/*  Breackpoint iphone 5/SE landscape*/
+@media only screen and (width: 568px)  and (orientation:landscape) {
+
+  .colonnes {
+    display: flex;
+    @include colonnes;
+
+    width: 100%;
+    background-color: white;
+
+    h2 {
+      padding-left: 10px;
+width: 55%;
+
+ 
+    } }
+
+
+    .choix {
+
+
+
+      h2 {
+
+        width: 75%;
+
+      }
+    }
+
+}
+
+
+/*  Breackpoint iphone 6/.. portrait*/
+@media only screen and (width: 414px)  and (orientation:portrait) {
+
+  .colonnes {
+    display: flex;
+    @include colonnes;
+
+    width: 100%;
+    background-color: white;
+
+    h2 {
+      padding-left: 10px;
+width: 43%;
+
+ 
+    } }
+
+
+    .choix {
+
+
+
+      h2 {
+
+        width: 75%;
+
+      }
+    }
+
+}
+
+/*  Breackpoint surface duo landscape*/
+@media only screen and (width: 540px)  and (orientation:portrait) {
+
+  .colonnes {
+    display: flex;
+    @include colonnes;
+
+    width: 100%;
+    background-color: white;
+
+    h2 {
+      padding-left: 10px;
+width: 55%;
+
+ 
+    } }
+
+
+    .choix {
+
+
+
+      h2 {
+
+        width: 80%;
+
+      }
+    }
+
+}
+
+/*  Breackpoint iphone 6/.. portrait*/
+@media only screen and (width: 411px)  and (orientation:portrait) {
+
+  .colonnes {
+    display: flex;
+    @include colonnes;
+
+    width: 100%;
+    background-color: white;
+
+    h2 {
+      padding-left: 10px;
+width: 43%;
+
+ 
+    } }
+
+
+    .choix {
+
+
+
+      h2 {
+
+        width: 75%;
+
+      }
+    }
+
+}
+
+
